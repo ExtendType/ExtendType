@@ -1,0 +1,9 @@
+[submodule "OfType"]
+	path = OfType
+	url = https://github.com/ExtendType/OfType.git
+[submodule "OfString"]
+	path = OfString
+	url = https://github.com/ExtendType/OfString.git
+[submodule "OfObject"]
+	path = OfObject
+	url = https://github.com/ExtendType/OfObject.git
