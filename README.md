@@ -1,4 +1,4 @@
-extendtype
+ExtendType
 ==========
 
-A master solution of all extended projects
+A master solution of all ExtendType projects
