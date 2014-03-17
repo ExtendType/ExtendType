@@ -1,0 +1,81 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30110.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtendType.OfString", "OfString\ExtendType.OfString\ExtendType.OfString.csproj", "{D54C367C-31CE-45E9-8124-8AECD47F220B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtendType.OfString.Tests", "OfString\ExtendType.OfString.Tests\ExtendType.OfString.Tests.csproj", "{3AA3B8F1-D67A-4B6E-8180-BE721F8AB609}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OfString", "OfString", "{A86B09EA-7644-4A51-8A91-288945CEE9D8}"
+	ProjectSection(SolutionItems) = preProject
+		OfString\ExtendType.OfString.msbuild = OfString\ExtendType.OfString.msbuild
+		OfString\ExtendType.OfString.nuspec = OfString\ExtendType.OfString.nuspec
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OfType", "OfType", "{00A5EED4-7604-48DD-8543-890776EE74D9}"
+	ProjectSection(SolutionItems) = preProject
+		OfType\ExtendType.OfType.msbuild = OfType\ExtendType.OfType.msbuild
+		OfType\ExtendType.OfType.nuspec = OfType\ExtendType.OfType.nuspec
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtendType.OfType.Tests", "OfType\ExtendType.OfType.Tests\ExtendType.OfType.Tests.csproj", "{E597FA26-0B27-418F-BD39-B3CAC708626D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtendType.OfType", "OfType\ExtendType.OfType\ExtendType.OfType.csproj", "{C981DCDD-CC0F-4186-A7E7-66218BE28716}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OfObject", "OfObject", "{E270C6AB-19B6-463E-B58E-275AA4335005}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtendType.OfObject", "OfObject\ExtendType.OfObject\ExtendType.OfObject.csproj", "{07C06BA5-4DE7-4AB8-9694-D9662F2871F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtendType.OfObject.Tests", "OfObject\ExtendType.OfObject.Tests\ExtendType.OfObject.Tests.csproj", "{82E76C87-6C4A-487B-9135-B6AF3AADCED0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{6F16FC8F-255E-4870-92DD-018EB3C23F76}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D54C367C-31CE-45E9-8124-8AECD47F220B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D54C367C-31CE-45E9-8124-8AECD47F220B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D54C367C-31CE-45E9-8124-8AECD47F220B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D54C367C-31CE-45E9-8124-8AECD47F220B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AA3B8F1-D67A-4B6E-8180-BE721F8AB609}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AA3B8F1-D67A-4B6E-8180-BE721F8AB609}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AA3B8F1-D67A-4B6E-8180-BE721F8AB609}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AA3B8F1-D67A-4B6E-8180-BE721F8AB609}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E597FA26-0B27-418F-BD39-B3CAC708626D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E597FA26-0B27-418F-BD39-B3CAC708626D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E597FA26-0B27-418F-BD39-B3CAC708626D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E597FA26-0B27-418F-BD39-B3CAC708626D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C981DCDD-CC0F-4186-A7E7-66218BE28716}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C981DCDD-CC0F-4186-A7E7-66218BE28716}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C981DCDD-CC0F-4186-A7E7-66218BE28716}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C981DCDD-CC0F-4186-A7E7-66218BE28716}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07C06BA5-4DE7-4AB8-9694-D9662F2871F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07C06BA5-4DE7-4AB8-9694-D9662F2871F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07C06BA5-4DE7-4AB8-9694-D9662F2871F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07C06BA5-4DE7-4AB8-9694-D9662F2871F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82E76C87-6C4A-487B-9135-B6AF3AADCED0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82E76C87-6C4A-487B-9135-B6AF3AADCED0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82E76C87-6C4A-487B-9135-B6AF3AADCED0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82E76C87-6C4A-487B-9135-B6AF3AADCED0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3AA3B8F1-D67A-4B6E-8180-BE721F8AB609} = {A86B09EA-7644-4A51-8A91-288945CEE9D8}
+		{D54C367C-31CE-45E9-8124-8AECD47F220B} = {A86B09EA-7644-4A51-8A91-288945CEE9D8}
+		{E597FA26-0B27-418F-BD39-B3CAC708626D} = {00A5EED4-7604-48DD-8543-890776EE74D9}
+		{C981DCDD-CC0F-4186-A7E7-66218BE28716} = {00A5EED4-7604-48DD-8543-890776EE74D9}
+		{07C06BA5-4DE7-4AB8-9694-D9662F2871F0} = {E270C6AB-19B6-463E-B58E-275AA4335005}
+		{82E76C87-6C4A-487B-9135-B6AF3AADCED0} = {E270C6AB-19B6-463E-B58E-275AA4335005}
+	EndGlobalSection
+EndGlobal
