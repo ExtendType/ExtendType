@@ -7,3 +7,9 @@
 [submodule "OfObject"]
 	path = OfObject
 	url = https://github.com/ExtendType/OfObject.git
+[submodule "OfDateTime"]
+	path = OfDateTime
+	url = https://github.com/ExtendType/OfDateTime.git	
+[submodule "OfCollection"]
+	path = OfCollection
+	url = https://github.com/ExtendType/OfCollection.git
