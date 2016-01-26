@@ -13,3 +13,6 @@
 [submodule "OfCollection"]
 	path = OfCollection
 	url = https://github.com/ExtendType/OfCollection.git
+[submodule "WithLogging"]
+	path = WithLogging
+	url = https://github.com/ExtendType/WithLogging.git
